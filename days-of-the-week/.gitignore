@@ -1,0 +1,12 @@
+# Dune build output
+/_build/
+
+# Local opam switch
+/_opam/
+
+# OCaml editor files
+.merlin
+
+# OS metadata
+.DS_Store
+Thumbs.db

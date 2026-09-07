@@ -1,0 +1,22 @@
+# Install Opam
+Link - https://opam.ocaml.org/doc/Install.html
+bash -c "sh <(curl -fsSL https://opam.ocaml.org/install.sh)"
+
+# Create Switch
+opam switch create cs-462 5.4.1
+
+# Install dune, utop
+opam install dune utop
+
+# Initialize project
+dune init proj days-of-the-week
+
+# Build
+dune build
+
+# Execute hello world
+dune exec -- days-of-the-week
+
+# Appendix
+# if utop not working
+https://stackoverflow.com/questions/20738880/ocaml-cant-run-utop-after-installing-it
