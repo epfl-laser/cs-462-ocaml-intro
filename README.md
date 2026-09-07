@@ -8,6 +8,12 @@ Link - https://opam.ocaml.org/doc/Install.html
 bash -c "sh <(curl -fsSL https://opam.ocaml.org/install.sh)"
 ```
 
+# Initialize opam
+
+```sh
+opam init
+```
+
 # Create Switch
 
 ``` sh
