@@ -32,6 +32,7 @@ If you want to create a new project from scratch (without using this template), 
 
 ``` sh
 dune init proj ocaml-intro
+cd ocaml-intro
 ```
 
 # Build
