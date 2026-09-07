@@ -60,6 +60,6 @@ dune exec -- ocaml-intro
 In the WSL run:
 
 ``` sh
-sudo apt install build-essential
+sudo apt install build-essential unzip
 ```
 
