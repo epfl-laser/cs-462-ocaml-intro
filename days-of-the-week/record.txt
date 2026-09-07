@@ -6,7 +6,7 @@ bash -c "sh <(curl -fsSL https://opam.ocaml.org/install.sh)"
 opam switch create cs-462 5.4.1
 
 # Install dune, utop
-opam install dune utop
+opam install dune utop user-setup
 
 # Initialize project
 dune init proj days-of-the-week
