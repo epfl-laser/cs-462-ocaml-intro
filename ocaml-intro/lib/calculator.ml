@@ -1,4 +1,4 @@
-(* Syntax *)
+(* AST Type as ADT *)
 type aexp =
 | Nat of int
 | Add of aexp * aexp
@@ -6,6 +6,7 @@ type aexp =
 | Mul of aexp * aexp
 | Div of aexp * aexp
 
+(* Interpreter for calculator language *)
 let rec interp (exp: aexp) = match exp with
   | Nat n -> n
   | Add (a, b) -> interp a + interp b

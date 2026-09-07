@@ -1,18 +1,17 @@
 let x = [1; 2; 3]
 
+(* More ADTs *)
 type 'a ourlist = Nil | Cons of 'a * 'a ourlist
 
 let rec lst_to_ourlist l = match l with
 | [] -> Nil
 | x :: xs -> Cons (x, lst_to_ourlist xs)
 
-
+(* Higher Order Functions *)
 let rec append lst1 lst2 =
   match lst1 with
   | Nil -> lst2
   | Cons (x, xs) -> Cons (x, append xs lst2)
-
-(* Drop in to utop and test this *)
 
 let rec map f lst1 =
   match lst1 with
