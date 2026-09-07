@@ -51,3 +51,15 @@ dune exec -- ocaml-intro
 
 - if utop not working:
   https://stackoverflow.com/questions/20738880/ocaml-cant-run-utop-after-installing-it
+
+
+## Installation on Windows
+
+- Ubuntu 26.04 WSL is recommended
+
+In the WSL run:
+
+``` sh
+sudo apt install build-essential
+```
+
