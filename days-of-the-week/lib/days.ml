@@ -1,3 +1,4 @@
+(* Algebraic data types *)
 type days =
   | Monday
   | Tuesday
@@ -7,6 +8,7 @@ type days =
   | Saturday
   | Sunday
 
+(* Pattern Matching *)
 let next_day day = 
   match day with
   | Monday -> Tuesday
@@ -17,6 +19,7 @@ let next_day day =
   | Saturday -> Sunday
   | Sunday -> Monday
 
+(* Recursion *)
 let rec nth_day day n = 
   match n with
   | 0 -> day

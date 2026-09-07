@@ -23,5 +23,3 @@ let rec foldl (acc: 'b) (f: 'b -> 'a -> 'b) (lst: 'a ourlist) =
   match lst with
   | Nil -> acc
   | Cons (x, xs) -> foldl (f acc x) f xs
-
-let test = foldl 0 (fun acc a -> acc + a) (lst_to_ourlist x)
