@@ -1,3 +1,0 @@
-(test
- (name test_days_of_the_week)
- (libraries days_of_the_week))

@@ -25,7 +25,7 @@ opam install dune utop user-setup
 If you want to create a new project from scratch (without using this template), do:
 
 ``` sh
-dune init proj days-of-the-week
+dune init proj ocaml-intro
 ```
 
 # Build
@@ -37,7 +37,7 @@ dune build
 # Execute hello world
 
 ``` sh
-dune exec -- days-of-the-week
+dune exec -- ocaml-intro
 ```
 
 # Appendix

@@ -1,4 +1,0 @@
-(executable
- (public_name days-of-the-week)
- (name main)
- (libraries days_of_the_week))
